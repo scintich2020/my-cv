@@ -581,6 +581,12 @@ li {
   }
 }
 
+@media screen and (max-width: 926px){
+  .bottom1{
+    height: 800px;
+  }
+}
+
 
 /* @media screen and (max-width: 707px){
   .bottom1{
