@@ -332,8 +332,7 @@ section::-webkit-scrollbar-track {
   background-color: #4d4d4d;
 }
 section::-webkit-scrollbar-thumb {
-  /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
-  background-color: red;
+  background-color: #444;
 }
 
 .bottom1 {
@@ -577,7 +576,7 @@ li {
 
 @media screen and (max-width: 736px){
   .bottom1{
-    height: 720px;
+    height: 620px;
   }
 }
 
