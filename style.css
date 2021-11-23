@@ -508,7 +508,7 @@ li {
 }
 
 .scroll_bar::-webkit-scrollbar-track{
-  background-color: #aaa;
+  background-color: chocolate;
   border-radius: 5px;
 }
 
@@ -574,6 +574,13 @@ li {
     height: 820px;
   }
 }
+
+@media screen and (max-width: 736px){
+  .bottom1{
+    height: 711px;
+  }
+}
+
 
 /* @media screen and (max-width: 707px){
   .bottom1{
