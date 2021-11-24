@@ -507,12 +507,12 @@ li {
 }
 
 .scroll_bar::-webkit-scrollbar-track{
-  background-color: chocolate;
+  background-color: #aaa;
   border-radius: 5px;
 }
 
 .scroll_bar::-webkit-scrollbar-thumb{
-  background-color: #aaa;
+  background-color: #6a6a6a;
   border-radius: 5px;
 }
 
@@ -526,6 +526,11 @@ li {
   display: flex;
   margin-top: 10px;
   margin-bottom: 5px;
+}
+
+.domaine p{
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 900px) {
