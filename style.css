@@ -420,7 +420,7 @@ section::-webkit-scrollbar-thumb {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  margin-top: -40px;
+  /* margin-top: -40px; */
 }
 
 .middle {
