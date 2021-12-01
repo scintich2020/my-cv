@@ -15,7 +15,6 @@
     $contrat = "+31 CONTRATS";
     $expérience = "12 ANS D'EXP";
     $paype = "img/paype.PNG";
-    $chefProjet = "Besoin d'un chef de projet?";
     $imageProfil = "img/image1.jpg";
     $imagePlus = "img/plus.png";
 
@@ -29,7 +28,7 @@ echo '
 
             <div>
                 <input type="search" style="width: 200px;" name="" id="search"
-                    placeholder='.$chefProjet.' />
+                    placeholder= "Besoin un chef de projet?" />
             </div>
             <div style="display: flex;">
                 <i class="fa fa-search fa-1x" aria-hidden="true"></i>
