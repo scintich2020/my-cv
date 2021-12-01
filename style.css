@@ -17,11 +17,11 @@ body {
   border-radius: 1px 10px;
   padding: 8px;
   display: grid;
-  grid-template-columns: 42% 56%;
-    grid-template-rows: auto auto auto auto;
+  grid-template-columns: 40% 59%;
+  grid-template-rows: auto auto auto auto;
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
   width: 100%;
-  grid-column-gap: 2%;
+  grid-column-gap: 1%;
 }
 
 .contain {
@@ -315,7 +315,7 @@ section::-webkit-scrollbar-thumb {
 
 .bottom1 {
   background: white;
-  height: 570px;
+  height: 575px;
   width: 100%;
   border: 1px;
   border-bottom-right-radius: 10px;
@@ -656,7 +656,7 @@ li {
 
 @media screen and (max-width: 736px){
   .bottom1{
-    height: 640px;
+    height: 750px;
   }
 }
 @media screen and (max-width: 722px){

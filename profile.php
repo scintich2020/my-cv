@@ -25,7 +25,7 @@ echo '
         <div class="cover"></div>
         <div class="div2">
 
-            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-bars fa-1x" aria-hidden="true"></i>
 
             <div>
                 <input type="search" style="width: 200px;" name="" id="search"

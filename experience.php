@@ -27,7 +27,7 @@
     $annee5 = "De Decembre 2012 à Juin 2013 ";
     $lien5 = "- http://bao-sarl.com";
     $definitionStrategie = "Définition des strategies commerciales, Controle de qualité, Suivi ...";
-    $date = 2021-2011;
+    $date = date("Y")-2011;
 
 echo '
 <div class="contain">
@@ -36,7 +36,7 @@ echo '
             <div class="header_info">
                 <img src='.$imageBatiment.' alt="" class="imageBatiment" />
                 <div class="titre">
-                    <label class="experience" for="">'.$experience.'.'.$date.'</label><br />
+                    <label class="experience" for="">'.$experience.' ('.$date."ans".')</label><br />
                     <label class="expertise" for="">'.$expertise.'</label>
                 </div>
             </div>
