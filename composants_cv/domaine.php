@@ -3,20 +3,20 @@
     $langageFront = "HTML5, SASS, VueJS?, Angular, JavaFX, ...";
     $backEnd = "Développement back-end";
     $langageBack = "NodeJS? Drupal 8, Larael, Kotlin, Java EE7";
-    $mobile = "Développement mobile";
+    $mobile = "Développaement mobile";
     $langageMobile = "Android Kotlin, IOS Swift, Cordova, Flutter";
     $design = "UI / UX Design";
     $ideDesign = "Photoshop CC, Adobe XD, Material Design";
     $baseDonnees = "Base de données & Bid Data" ;
     $ideBaseDonnees = "Oracle 11g, PostgresSQL, Hadoop, Talend DI";
-    $Outils = "Outils / Environnemen ";
+    $Outils = "Outils / Environnement ";
     $ideOutils = "Visual Paradign, Git, Docker, K8s, Linux";
     $checkbox = "img/check.PNG";
 
 
     echo '
             <div class="skill">
-                <img src='.$checkbox.' style="width: 30px; height: 30px;">
+                <img src="img/check.PNG" style="width: 30px; height: 30px;">
                 <div class="domaine" style=" margin-left: 20px; flex: 1;">
                     <div class="skill_dev">
                         <h3>'.$frontEnd.'</h3>
@@ -31,7 +31,7 @@
             </div>
 
             <div class="skill">
-                <img src='.$checkbox.' style="width: 30px; height: 30px;">
+                <img src="img/check.PNG" style="width: 30px; height: 30px;">
                 <div class="domaine" style=" margin-left: 20px; flex: 1;">
                     <div class="skill_dev">
                         <h3>'.$backEnd.'</h3>
@@ -46,7 +46,7 @@
             </div>
 
             <div class="skill">
-                <img src='.$checkbox.' style="width: 30px; height: 30px;">
+                <img src="img/check.PNG" style="width: 30px; height: 30px;">
                 <div class="domaine" style=" margin-left: 20px; flex: 1;">
                     <div class="skill_dev">
                         <h3>'.$mobile.'</h3>
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div class="skill">
-                <img src='.$checkbox.' style="width: 30px; height: 30px;">
+                <img src="img/check.PNG" style="width: 30px; height: 30px;">
                 <div class="domaine" style=" margin-left: 20px; flex: 1;">
                     <div class="skill_dev">
                         <h3>'.$design.'</h3>
@@ -74,7 +74,7 @@
                 </div>
             </div>
             <div class="skill">
-                <img src='.$checkbox.' style="width: 30px; height: 30px;">
+                <img src="img/check.PNG" style="width: 30px; height: 30px;">
                 <div class="domaine" style=" margin-left: 20px; flex: 1;">
                     <div class="skill_dev">
                         <h3>'.$baseDonnees.'</h3>
@@ -90,7 +90,7 @@
 
 
             <div class="skill">
-                <img src='.$checkbox.' height="30" width="30">
+                <img src="img/check.PNG" height="30" width="30">
                 <div class="domaine" style=" margin-left: 20px; flex: 1;">
                     <div class="skill_dev">
                         <h3>'.$Outils.'</h3>
