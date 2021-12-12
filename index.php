@@ -3,6 +3,7 @@
     require "classes/exprienceProfessionnelle.php";
     require "classes/experienceAcademique.php";
     require "classes/personne.php";
+    require "classes/competences.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
