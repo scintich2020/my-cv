@@ -4,6 +4,7 @@
     require "classes/experienceAcademique.php";
     require "classes/personne.php";
     require "classes/competences.php";
+    require "classes/langues.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -49,7 +50,7 @@
                     include("composants_cv/pointInteret.php");
                 ?>
                 <?php
-                    include("composants_cv/langues.php");
+                    include("composants_cv/langue.php");
                 ?>
             </div>
                 <?php
