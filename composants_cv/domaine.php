@@ -1,9 +1,9 @@
   <?php
     $frontEnd = "Développement front-end";
-    $langageFront = "HTML5, SASS, VueJS?, Angular, JavaFX, ...";
+    $langageFront = "HTML5, SASS, VueJS, Angular, JavaFX, ...";
     $backEnd = "Développement back-end";
-    $langageBack = "NodeJS? Drupal 8, Larael, Kotlin, Java EE7";
-    $mobile = "Développaement mobile";
+    $langageBack = "NodeJS, Drupal 8, Larael, Kotlin, Java EE7";
+    $mobile = "Développement mobile";
     $langageMobile = "Android Kotlin, IOS Swift, Cordova, Flutter";
     $design = "UI / UX Design";
     $ideDesign = "Photoshop CC, Adobe XD, Material Design";

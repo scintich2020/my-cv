@@ -30,9 +30,14 @@
                                 <div class="titre">
                                     <label class="experience" for="">Expérience Professionnelle ('.$date."ans".')</label><br />
                                     <label class="expertise" for="">Expertise en entreprise</label>
+
+                                    <div class = "btn_edit_group">
+                                        <button class ="btn_edit" id="edit1" style = "margin-right: 150px; width: 50px; height: 50px; margin-top:12px;">
+                                            <i class="fa fa-pencil fa-1.5x" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
-
                             <i class="fas fa-ellipsis-v fa-1x" style="color: white;"></i>
                         </div>
                         <div class="bottom1 scroll_bar">';

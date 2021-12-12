@@ -2,6 +2,7 @@
 <?php
     require "classes/exprienceProfessionnelle.php";
     require "classes/experienceAcademique.php";
+    require "classes/personne.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -18,7 +19,9 @@
     <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+    <script src="script/jquery-3.5.1.min.js" defer></script>
     <script src="script/script.js" defer></script>
+    
     <title>CV</title>
 </head>
 

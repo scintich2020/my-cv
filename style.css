@@ -119,11 +119,28 @@ body {
   position: absolute;
   top: -30px;
   right: 30px;
-  --angle : 225deg ;
+  --angle : 250deg ;
   
 
   /* display: flex; */
   
+}
+
+.btn_edit{
+  background: #eb69d9;
+  height: 60px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  width: 60px;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  --angle : -180deg ;
+  transition-delay: 50ms;
+  z-index: 3;
 }
 
 .btn_click_group > *{
@@ -170,7 +187,7 @@ body {
   flex-direction: row;
   background: white;
   justify-content: space-between;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   border-radius: 5px;
   align-items: center;
   z-index: 3;
@@ -574,7 +591,16 @@ li {
   font-size: 16px;
 }
 
+.spinner_load{
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+}
 
+.spinner_none{
+  display: none;
+}
 
 @media screen and (max-width: 900px) {
   .parent{

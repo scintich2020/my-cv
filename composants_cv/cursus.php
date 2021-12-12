@@ -18,6 +18,9 @@
 
         new ExperienceAcademique( "Baccalauréat - ", " @Lycée Technique de Douala Bassa", " Juin 2005 -", 
         "Electrotechnique, mention BIEN (major de centre)" ),
+
+        new ExperienceAcademique( "Oracle SQL Certified - ", " @Kentnix Sarl", " Decembre 2008 -", 
+        "SQL2, SQL3, XML" ),
     );
     
     ExperienceAcademique::get_composant_experience_academique($cursus);
